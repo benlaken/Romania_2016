@@ -18,3 +18,6 @@ Sessions on Thursday 20th October 10:00-11:00 and 17:00-18:00. Two-part talk tit
 * [p-value hacking](http://theconversation.com/one-reason-so-many-scientific-studies-may-be-wrong-66384)
 * [Nature Article: Publish your code, it's good enough!](http://www.nature.com/news/2010/101013/full/467753a.html)
 * [Stats for hackers - Jake Vanderplas](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
+* [Statistical Thinking for Data Science - Chris Fonnesbeck](https://www.youtube.com/watch?v=TGGGDpb04Yc)
+* [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+* [Software Carpentry](http://software-carpentry.org)
