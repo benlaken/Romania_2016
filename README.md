@@ -12,9 +12,9 @@ Sessions on Thursday 20th October 10:00-11:00 and 17:00-18:00. Two-part talk tit
 
 
 
-### Some useful links and more info
-[Academic archetypes: an anti-pattern for reproducibility](http://benlaken.com/blog/?id=27)
-[How to start moving towards a reproducible work-flow](http://benlaken.com/blog/?id=29)
-[p-value hacking](http://theconversation.com/one-reason-so-many-scientific-studies-may-be-wrong-66384)
-[Nature Article: Publish your code, it's good enough!](http://www.nature.com/news/2010/101013/full/467753a.html)
-[Stats for hackers - Jake Vanderplas](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
+### Useful links and further info
+* [Academic archetypes: an anti-pattern for reproducibility](http://benlaken.com/blog/?id=27)
+* [How to start moving towards a reproducible work-flow](http://benlaken.com/blog/?id=29)
+* [p-value hacking](http://theconversation.com/one-reason-so-many-scientific-studies-may-be-wrong-66384)
+* [Nature Article: Publish your code, it's good enough!](http://www.nature.com/news/2010/101013/full/467753a.html)
+* [Stats for hackers - Jake Vanderplas](https://www.youtube.com/watch?v=Iq9DzN6mvYA)
