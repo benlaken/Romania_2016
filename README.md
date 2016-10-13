@@ -9,7 +9,7 @@ Sessions on Thursday 20th October 10:00-11:00 and 17:00-18:00. Two-part talk tit
 
 ###  How to do stats without math, be a better researcher, and save your life with Python.
 
-
+[Etherpad for collaborative note-taking](https://public.etherpad-mozilla.org/p/NATVARCLIM)
 
 
 ### Useful links and further info
