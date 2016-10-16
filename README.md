@@ -21,3 +21,5 @@ Sessions on Thursday 20th October 10:00-11:00 and 17:00-18:00. Two-part talk tit
 * [Statistical Thinking for Data Science - Chris Fonnesbeck](https://www.youtube.com/watch?v=TGGGDpb04Yc)
 * [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 * [Software Carpentry](http://software-carpentry.org)
+* [EarthPy website](http://earthpy.org)
+* [Scipy Lecture notes](http://www.scipy-lectures.org)
