@@ -199,6 +199,8 @@ $wc -l *.csv | sort -n | head -5
 ## Open Science
 What is it? Open discussion!
 
+![](imgs/holmes_tweet.png) <!-- .element style="width:80%; border:none" -->
+
 --
 
 ## The role of Stats
@@ -233,8 +235,70 @@ What is it? Open discussion!
 
 ![](imgs/plc_4.png) <!-- .element style="width:55%" -->
 
+--
+
+### Academic archetypes: an anti-pattern for reproducibility?
+
+![](imgs/academics.png) <!-- .element style="width:80%" -->
+
+http://benlaken.com/blog/?id=27
+
+--
+
+### Your typical workflow?
+
+```
+└── my_project
+    │
+    ├── Code
+    │   ├── process_raw_data.f77  <--- Heart of the project, written in FORTRAN by, uh, someone...
+    │   └── calculate_result.m    <--- The postdoc who wrote this already left to work for a bank...
+    │
+    ├── Data
+    │   ├── raw_experiment1.txt  <--- This is the raw data from my instrument
+    │   ├── raw_experiment2.txt
+    │   ├── raw_experiment3.txt
+    │   └── processed_data.dat  <--- Postdocs code makes this output I can read into Excel
+    │
+    ├── output1.txt             <--- The postdocs code made this, which I can put into excel to examine...
+    ├── experiment1.xlsx        <--- Finally, I can do something useful with this $*#@!
+    ├── experiment2.xlsx
+    ├── my_report_v3.docx       <--- The start of my thesis, or new paper
+    └── summary_results.xlsx    <--- Summary excel sheet, so I can clean up my final results
+```
+
+--
+
+###  Your typical workflow?
+
+* Manual pipeline<!-- .element class="fragment" -->
+* Inherited code you don't understand<!-- .element class="fragment" -->
+* Monolithic spreadsheets<!-- .element class="fragment" -->
+* Difficult to re-run/change something<!-- .element class="fragment" -->
+* No documentation<!-- .element class="fragment" -->
+* You never actually intended for anyone else to use the work...<!-- .element class="fragment" -->
+
+--
+
+### How can you start to change this?
+
+Goal: people should be able to see what you did, and how you did it **without effort on their part**.
+
+* Learn key tools (Bash, Python/R, Git)<!-- .element class="fragment" -->
+* Pace yourself: improve incrementally<!-- .element class="fragment" -->
+* Expect to share all your work, not just your final paper<!-- .element class="fragment" -->
+
+http://benlaken.com/blog/?id=29<!-- .element class="fragment" -->
+
+--
+
+<!-- .element data-background="imgs/bateman.gif" -->
+
 ---
 
+# Python
+
+---
 <!-- .element data-background="imgs/shelf.gif" -->
 
 ## **Thanks for listening, and good luck!** <!-- .element style="color: #FFFF; font-size: 1.0em;" -->
