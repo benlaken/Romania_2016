@@ -71,7 +71,16 @@ Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_201
 
 ## BASH
 
-<table style="width:100%">
+Anatomy of a Bash program
+
+```bash
+$program_name -flags input_file(s)
+
+$echo 'hello world!'
+hello world!
+```
+
+<table style="width:100%"><!-- .element class="fragment" -->
   <tr>
     <th>Command</th>
     <th>Result</th>
@@ -92,26 +101,37 @@ Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_201
     <td>ls</td>
     <td>show whats in a location</td>
   </tr>
-  <tr>
-    <td>cat</td>
-    <td>show contents of a file</td>
-  </tr>
-  <tr>
-    <td>wc</td>
-    <td>count lines, words, characters of a file</td>
-  </tr>
-  <tr>
-    <td>echo</td>
-    <td>send to standard output (print)</td>
-  </tr>
-  <tr>
-    <td>mv</td>
-    <td>move or rename a file or folder</td>
-  </tr>
-  <tr>
-    <td>rm</td>
-    <td>erase something</td>
-  </tr>
+</table>
+
+--
+
+## BASH
+
+<table style="width:100%">
+<tr>
+  <th>Command</th>
+  <th>Result</th>
+</tr>
+<tr>
+  <td>cat</td>
+  <td>show contents of a file</td>
+</tr>
+<tr>
+  <td>wc</td>
+  <td>count lines, words, characters of a file</td>
+</tr>
+<tr>
+  <td>echo</td>
+  <td>send to standard output (print)</td>
+</tr>
+<tr>
+  <td>mv</td>
+  <td>move or rename a file or folder</td>
+</tr>
+<tr>
+  <td>rm</td>
+  <td>erase something</td>
+</tr>
 </table>
 
 --
@@ -169,6 +189,11 @@ $wc -l *.csv | sort -n | head -5
 7144 UPM00033657_SELIATYN_UP_.csv
 ```
 
+--
+
+<!-- .element data-background="http://i.giphy.com/90F8aUepslB84.gif" -->
+
+
 ---
 
 ## Open Science
@@ -180,22 +205,42 @@ What is it? Open discussion!
 
 1. Where do stats fit in the research lifecycle?
 1. Who is typically involved (and when)?
-1. How does this relate to <span class="fragment highlight-red">the Reproducibility crisis</span> ?
+1. How does this relate to
+<span>the Reproducibility crisis <!-- .element style="color: #FF0000" --></span>
+?
 
+--
+
+### Scientific project lifecycle
+
+![](imgs/plc_1.png) <!-- .element style="width:75%" -->
+
+--
+
+### Scientific project lifecycle
+
+![](imgs/plc_2.png) <!-- .element style="width:35%" -->
+
+--
+
+### Scientific project lifecycle
+
+![](imgs/plc_3.png) <!-- .element style="width:35%" -->
+
+--
+
+### Scientific project lifecycle
+
+![](imgs/plc_4.png) <!-- .element style="width:55%" -->
 
 ---
 
-Thanks!
-===================================
+<!-- .element data-background="imgs/shelf.gif" -->
 
-Benjamin Laken · [@benlaken](https://twitter.com)
+## **Thanks for listening, and good luck!** <!-- .element style="color: #FFFF; font-size: 1.0em;" -->
+
+[@benlaken](https://twitter.com) <!-- .element style="color: #FFD700" -->
+~ <!-- .element style="color: #FFD700" -->
+[Web](http://www.benlaken.com) <!-- .element style="color: #FFD700" -->
 
 October'16 - NATCLIMVAR - Bucharest
-
-*I am available for project consultancy*
-
-[Repo](http://bit.ly/2dY4qZi)
-
-[Personal Website](http://www.benlaken.com)
-
-<img class="noborder" src="imgs/cloud.png" style="width:25%;">
