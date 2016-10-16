@@ -10,6 +10,7 @@ NATCLIMVAR, 20th October 2016, Bucharest
 [Personal Website](http://www.benlaken.com)
 
 https://public.etherpad-mozilla.org/p/NATVARCLIM
+
 ---
 
 ## My aims are to give you:
@@ -29,7 +30,8 @@ https://public.etherpad-mozilla.org/p/NATVARCLIM
 ![](imgs/root_filesystem.png) <!-- .element style="width:80%;" -->
 
 source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
----
+
+--
 
 ### File system structure
 
@@ -37,7 +39,7 @@ source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
 source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
----
+--
 
 ### Command line interfaces
 
@@ -53,17 +55,19 @@ First computer mice/GUIs arrive in early 1980's <!-- .element class="fragment" -
 
 Irrelevant, geeky, and just for hackers?
 
----
+--
 
 ## BASH
 
 * High action to keystroke ratio, opposite to GUIs
 * Powerful model of small, connectable programs
+* End up saving you much time
+* But there are limits to its use...
 
 Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_2016
 
 
----
+--
 
 ## BASH
 
@@ -96,18 +100,88 @@ Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_201
     <td>wc</td>
     <td>count lines, words, characters of a file</td>
   </tr>
+  <tr>
+    <td>echo</td>
+    <td>send to standard output (print)</td>
+  </tr>
+  <tr>
+    <td>mv</td>
+    <td>move or rename a file or folder</td>
+  </tr>
+  <tr>
+    <td>rm</td>
+    <td>erase something</td>
+  </tr>
 </table>
 
----
+--
 
 ## BASH
 
-Repeating actions in loops:
+If the Data folder is placed on desktop, navigate to it and see contents via:
 
 ```bash
-echo $PATH
+$whoami
+ben
+$cd Desktop/Data/station_data
+$pwd
+~/Desktop/Data/station_data
+$ls
+BUM00015502_VIDIN_BU_.csv                 ROE00108888_BOTOSANI_RO_.csv              ROE00108901_SIBIU_RO_.csv
+MD000033881_LEOVA_MD_.csv                 ROE00108889_BUCURESTI_BANEASA_RO_.csv     ROE00108903_TULCEA_RO_.csv
+MD000033885_KAGUL_MD_.csv                 ROE00108890_CARANSEBES_RO_.csv            ROM00015023_STEFAN_CEL_MARE_RO_.csv
+ROE00100829_ARAD_RO_.csv                  ROE00108891_CEAHLAU_TOACA_RO_.csv         ROM00015085_BISTRITA_RO_.csv
+ROE00100898_BAIA_MARE_RO_.csv             ROE00108892_CONSTANTA_RO_.csv             ROM00015247_TRAIAN_VUIA_RO_.csv
+ROE00100899_BUCURESTI_FILARET_RO_.csv     ROE00108893_CRAIOVA_RO_.csv               ROM00015280_VARFU_OMUL_RO_.csv
+ROE00100900_BUZAU_RO_.csv                 ROE00108894_DEVA_RO_.csv                  ROM00015360_SULINA_.csv
+ROE00100901_CALARASI_RO_.csv              ROE00108895_GALATI_RO_.csv                UPM00033657_SELIATYN_UP_.csv
+ROE00100902_CLUJ_NAPOCA_RO_.csv           ROE00108896_IASI_RO_.csv                  UPM00033889_IZMAIL_UP_.csv
+ROE00100903_DROBETA_TURNU_SEVERIN_RO_.csv ROE00108897_MIERCUREA_CIUC_RO_.csv        UPM00033898_VILKOVO_UP_.csv
+ROE00100904_TG_JIU_RO_.csv                ROE00108898_OCNA_SUGATAG_RO_.csv          sorted.txt
+ROE00100905_TURNU_MAGURELE_RO_.csv        ROE00108899_RAMNICU_VALCEA_RO_.csv        stats.sh
+ROE00108887_BACAU_RO_.csv                 ROE00108900_ROSIORI_DE_VEDE_RO_.csv
 
 ```
+
+--
+
+## BASH
+
+![](imgs/bash_pros.png) <!-- .element style="width:75%" -->
+
+source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
+
+--
+
+## BASH
+
+`*.csv` matches all csv files in the folder. The `|` (pipe) makes output
+from left-side program be input of the right-side program.
+
+```bash
+$pwd
+~/Desktop/Data/station_data
+$wc -l *.csv | sort -n | head -5
+3000 UPM00033898_VILKOVO_UP_.csv
+3289 MD000033885_KAGUL_MD_.csv
+5019 MD000033881_LEOVA_MD_.csv
+5560 BUM00015502_VIDIN_BU_.csv
+7144 UPM00033657_SELIATYN_UP_.csv
+```
+
+---
+
+## Open Science
+What is it? Open discussion!
+
+--
+
+## The role of Stats
+
+1. Where do stats fit in the research lifecycle?
+1. Who is typically involved (and when)?
+1. How does this relate to <span class="fragment highlight-red">the Reproducibility crisis</span> ?
+
 
 ---
 
@@ -125,30 +199,3 @@ October'16 - NATCLIMVAR - Bucharest
 [Personal Website](http://www.benlaken.com)
 
 <img class="noborder" src="imgs/cloud.png" style="width:25%;">
-
-
-
-<!--
-RESOURCES
-
-COLORS:
-
-Location Red
-#F24440
-#FF918F
-
-Navy Blue
-#162945
-
-Purple
-#C6ACFC
-#C6ACFC
-
-Prediction Blue
-#1785FB
-
-Green
-#73C86B
-
-
--->
