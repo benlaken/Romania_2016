@@ -57,9 +57,57 @@ Irrelevant, geeky, and just for hackers?
 
 ## BASH
 
-* Few keystrokes, large response
+* High action to keystroke ratio, opposite to GUIs
 * Powerful model of small, connectable programs
-* Time to play: Download data from https://github.com/benlaken/Romania_2016
+
+Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_2016
+
+
+---
+
+## BASH
+
+<table style="width:100%">
+  <tr>
+    <th>Command</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>whoami</td>
+    <td>see the user you are logged in as</td>
+  </tr>
+  <tr>
+    <td>pwd</td>
+    <td>print where you are in filesystem</td>
+  </tr>
+  <tr>
+    <td>cd</td>
+    <td>change directory</td>
+  </tr>
+  <tr>
+    <td>ls</td>
+    <td>show whats in a location</td>
+  </tr>
+  <tr>
+    <td>cat</td>
+    <td>show contents of a file</td>
+  </tr>
+  <tr>
+    <td>wc</td>
+    <td>count lines, words, characters of a file</td>
+  </tr>
+</table>
+
+---
+
+## BASH
+
+Repeating actions in loops:
+
+```bash
+echo $PATH
+
+```
 
 ---
 
