@@ -25,6 +25,15 @@ https://public.etherpad-mozilla.org/p/NATVARCLIM
 
 ---
 
+### Command line interfaces<!-- .element class="fragment" -->
+
+![](imgs/old_computer.png) <!-- .element style="width:50%;" -->
+
+First mice & GUIs in early 1980's <!-- .element class="fragment" -->
+. Before then, people need to do all same operations. <!-- .element class="fragment" -->
+
+---
+
 ### File system structure
 
 ![](imgs/root_filesystem.png) <!-- .element style="width:80%;" -->
@@ -41,13 +50,6 @@ source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
 --
 
-### Command line interfaces
-
-![](imgs/old_computer.png) <!-- .element style="width:50%;" -->
-
-First computer mice/GUIs arrive in early 1980's <!-- .element class="fragment" -->
-
----
 
 ## BASH
 
@@ -57,30 +59,53 @@ Irrelevant, geeky, and just for hackers?
 
 --
 
-## BASH
+### BASH ([Bourne Again SHell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
-* High action to keystroke ratio, opposite to GUIs
+* High action to keystroke ratio, opposite to GUIs<!-- .element style="color: #FF0000;" -->
 * Powerful model of small, connectable programs
 * End up saving you much time
 * But there are limits to its use...
 
-Time to try it! Download  e.g. data from https://github.com/benlaken/Romania_2016
-
+Time to try it! Download the files from https://github.com/benlaken/Romania_2016
+and place the folder on your Desktop.
 
 --
 
-## BASH
+###Our dataset
+
+E.g. using Global Historical Climatology Network (GHCN) Data over Romania: [source NOAA](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn)
+
+![](imgs/GHCN_data.png) <!-- .element style="width:90%;" -->
+
+--
+
+### BASH
 
 Anatomy of a Bash program
 
 ```bash
-$program_name -flags input_file(s)
+$program_name -optional_flags input_file(s)
 
 $echo 'hello world!'
 hello world!
 ```
 
-<table style="width:100%"><!-- .element class="fragment" -->
+By default, output comes to the screen. To redirect it you can use an arrow:
+
+```bash
+$echo 'hello world!' > new_textfile.txt
+$cat new_textfile.txt
+hello world!
+```
+
+The output of `echo` was sent to `new_textfile.txt`. After, I used the program `cat`
+to display the contents of the file.
+
+--
+
+### BASH
+
+<table style="width:100%">
   <tr>
     <th>Command</th>
     <th>Result</th>
@@ -105,7 +130,7 @@ hello world!
 
 --
 
-## BASH
+### BASH
 
 <table style="width:100%">
 <tr>
@@ -136,7 +161,7 @@ hello world!
 
 --
 
-## BASH
+### BASH
 
 If the Data folder is placed on desktop, navigate to it and see contents via:
 
@@ -165,7 +190,7 @@ ROE00108887_BACAU_RO_.csv                 ROE00108900_ROSIORI_DE_VEDE_RO_.csv
 
 --
 
-## BASH
+### BASH
 
 ![](imgs/bash_pros.png) <!-- .element style="width:75%" -->
 
@@ -173,7 +198,7 @@ source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
 --
 
-## BASH
+### BASH
 
 `*.csv` matches all csv files in the folder. The `|` (pipe) makes output
 from left-side program be input of the right-side program.
@@ -210,6 +235,7 @@ What is it? Open discussion!
 1. How does this relate to
 <span>the Reproducibility crisis <!-- .element style="color: #FF0000" --></span>
 ?
+1. How can you use <span>Open Science <!-- .element style="color: #228B22" --></span>to make your work better?
 
 --
 
@@ -271,18 +297,20 @@ http://benlaken.com/blog/?id=27
 
 ###  Your typical workflow?
 
-* Manual pipeline<!-- .element class="fragment" -->
-* Inherited code you don't understand<!-- .element class="fragment" -->
-* Monolithic spreadsheets<!-- .element class="fragment" -->
-* Difficult to re-run/change something<!-- .element class="fragment" -->
-* No documentation<!-- .element class="fragment" -->
-* You never actually intended for anyone else to use the work...<!-- .element class="fragment" -->
+Danger signs<!-- .element style="color: #FF0000" -->
+- Manual pipeline
+- Inherited code you don't understand
+- Monolithic spreadsheets
+- Difficult to re-run/change something
+- No documentation
+- You never actually intended for anyone else to use the work...
 
 --
 
 ### How can you start to change this?
 
-Goal: people should be able to see what you did, and how you did it **without effort on their part**.
+Goal: people should be able to see what you did, and how you did it
+<span>without effort on their part<!-- .element style="color: #228B22" --></span>
 
 * Learn key tools (Bash, Python/R, Git)<!-- .element class="fragment" -->
 * Pace yourself: improve incrementally<!-- .element class="fragment" -->
@@ -292,13 +320,51 @@ http://benlaken.com/blog/?id=29<!-- .element class="fragment" -->
 
 --
 
+#### Do you live in version hell?
+
+![](imgs/phd101212s.gif) <!-- .element style="width:50%; border:none" -->
+
+--
+
+### A quick word on Git
+
+![](imgs/git_taste.png) <!-- .element style="width:40%; border:none" -->
+
+* Industry-standard version-control system
+* Protect, share, and maintain your code
+* Collaborative tool: track complex changes to multiple files and multiple authors
+
+[Codecademy](https://www.codecademy.com/learn/learn-git) is an easy way to start learning Git
+
+--
+
 <!-- .element data-background="imgs/bateman.gif" -->
 
 ---
 
-# Python
+### Python
+
+![](http://imgs.xkcd.com/comics/python.png)<!-- .element style="width:50%; border:none" -->
 
 ---
+
+### Conclusions
+
+Better stats = Trustworthy stats<!-- .element style="font-size: 0.75em; color: #008000;" -->
+
+Use and contribute to existing tools: don't re-write them or use black-boxes<!-- .element style="font-size: 0.75em;" -->
+
+You may work on a narrow problem, but working with shared tools connects you to other communities<!-- .element style="font-size: 0.75em;" -->
+
+Reproducibility is one of the main problems in Science today<!-- .element style="font-size: 0.75em;" -->
+It is a systemic problem. And you are already part of that system.<!-- .element style="font-size: 0.75em; color: #FF0000" -->
+
+> Be the change you wish to see in the world <!-- .element style="font-size: 0.75em;" -->
+
+> --Mahatma Gandhi<!-- .element style="font-size: 0.75em;" -->
+
+---
+
 <!-- .element data-background="imgs/shelf.gif" -->
 
 ## **Thanks for listening, and good luck!** <!-- .element style="color: #FFFF; font-size: 1.0em;" -->
