@@ -26,34 +26,9 @@ https://public.etherpad-mozilla.org/p/NATVARCLIM
 
 ## [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
-Please let go of any ideas you aren't 'technical' or you won't be able to learn this
+Maybe you feel you aren't 'technical' and can't learn this?
 
-![](imgs/imposter.png) <!-- .element style="width:50%;" -->
-
-
---
-
-## [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
-
-Good computer skills are not magic: just practice and time
-
-![](imgs/imposter.png) <!-- .element style="width:50%;" -->
-
---
-
-[Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
-
-No one is born knowing this stuff. Expect to spend much time confused!
-
-![](imgs/imposter.png) <!-- .element style="width:50%;" -->
-
---
-
-[Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
-
-Stay positive!
-
-![](imgs/imposter.png) <!-- .element style="width:50%;" -->
+![](imgs/imposter.png) <!-- .element style="width:60%;" -->
 
 
 ---
