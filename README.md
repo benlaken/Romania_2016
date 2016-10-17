@@ -11,6 +11,16 @@ Sessions on Thursday 20th October 10:00-11:00 and 17:00-18:00. Two-part talk tit
 
 [Etherpad for collaborative note-taking](https://public.etherpad-mozilla.org/p/NATVARCLIM)
 
+This talk will cover basic introduction to Bash and the role of statistics in a scientific project.
+We will discuss how academic research currently has systemic flaws that encourage irreproducible
+work, that result in the so-called "Reproducibility Crisis". A crisis that need-not exist.
+We will examine how you, as early-stage researchers, can begin to break this anti-pattern through the
+adoption of community open-source tools and computer-science methods, including the use
+of Python. In this context, a basic introduction to meteorological station data analysis in Python will be
+demonstrated, using the Pandas library. I will also demonstrate the use of remote, gridded
+NetCDF datasets and simple mapping tools for multidimensional datasets.
+
+This talk is for novices: no prior knowledge is required.
 
 ### Useful links and further info
 * [Academic archetypes: an anti-pattern for reproducibility](http://benlaken.com/blog/?id=27)
