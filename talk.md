@@ -22,6 +22,39 @@ https://public.etherpad-mozilla.org/p/NATVARCLIM
 
 * A small peek inside the world of data science <!-- .element class="fragment" -->
 
+--
+
+## [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
+
+Please let go of any ideas you aren't 'technical' or you won't be able to learn this
+
+![](imgs/imposter.png) <!-- .element style="width:50%;" -->
+
+
+--
+
+## [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
+
+Good computer skills are not magic: just practice and time
+
+![](imgs/imposter.png) <!-- .element style="width:50%;" -->
+
+--
+
+[Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
+
+No one is born knowing this stuff. Expect to spend much time confused!
+
+![](imgs/imposter.png) <!-- .element style="width:50%;" -->
+
+--
+
+[Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
+
+Stay positive!
+
+![](imgs/imposter.png) <!-- .element style="width:50%;" -->
+
 
 ---
 
@@ -32,7 +65,7 @@ https://public.etherpad-mozilla.org/p/NATVARCLIM
 First mice & GUIs in early 1980's <!-- .element class="fragment" -->
 . Before then, people need to do all same operations. <!-- .element class="fragment" -->
 
----
+--
 
 ### File system structure
 
@@ -48,7 +81,7 @@ source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
 source [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 
---
+---
 
 
 ## BASH
@@ -345,6 +378,30 @@ http://benlaken.com/blog/?id=29<!-- .element class="fragment" -->
 ### Python
 
 ![](http://imgs.xkcd.com/comics/python.png)<!-- .element style="width:50%; border:none" -->
+
+--
+
+#### Amazing tools in Python, e.g.
+
+<table style="width:100%">
+<tr>
+  <th>Library</th>
+  <th>Use</th>
+</tr>
+<tr>
+  <td>[Scipy](http://www.scipy-lectures.org/intro/scipy.html)</td>
+  <td>Scientific computing tools</td>
+</tr>
+<tr>
+  <td>[Scikit-learn](https://github.com/scikit-learn/scikit-learn)</td>
+  <td>Machine learning</td>
+</tr>
+<tr>
+  <td>[Google's Earth Engine](https://developers.google.com/earth-engine/python_install)</td>
+  <td>Pb-scale Remote sensing</td>
+</tr>
+</table>
+
 
 ---
 
