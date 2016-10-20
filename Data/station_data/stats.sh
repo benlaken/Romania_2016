@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 # Count the number of CSV files in a folder
 echo "Number of csv files: $(ls *.csv | wc -l)"
 
